@@ -5,6 +5,7 @@ import pywhatkit as py
 import pyttsx3
 import os
 import pyjokes
+import pyspark
 def myCommand():
     r = sr.Recognizer()
     with sr.Microphone() as source:
